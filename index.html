@@ -17,6 +17,41 @@
         margin: 0;
         padding: 20px 0;
     }
+     /* HEADER DENGAN BACKGROUND GAMBAR */
+        header {
+            height: 430px;
+            background-image:
+                linear-gradient(
+                    rgba(0, 65, 70, 0.15),
+                    rgba(0, 65, 70, 0.25)
+                ),
+                url("images/header.jpg");
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-radius: 20px 0 0 0;
+        }
+
+        /* JUDUL WEBSITE */
+        header h1 {
+            color: white;
+            font-size: 52px;
+            font-weight: bold;
+            text-transform: uppercase;
+
+            text-shadow:
+                3px 3px 0 #126c70,
+                5px 5px 0 #064b50,
+                7px 9px 12px rgba(0, 0, 0, 0.6);
+        }
+
 
     /* Tampilan tabel utama */
     table {
