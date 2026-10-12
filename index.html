@@ -3,7 +3,186 @@
 <html lang="id">
 <head>
     <title>Beranda</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">"
+   
+<style>
+    /* Tampilan dasar website */
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #d1d5db;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: #334155;
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    /* Tampilan tabel utama */
+    table {
+        width: 800px;
+        max-width: 95%;
+        margin: auto;
+        border-collapse: collapse;
+        border: none;
+        border-radius: 15px;
+        overflow: hidden;
+        background-color: #ffffff;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    td {
+        padding: 18px;
+        border: none;
+        line-height: 1.7;
+    }
+
+    /* Header website */
+    tr:first-child td {
+        background-color: #0f766e;
+        background-image: linear-gradient(
+            135deg,
+            #0f766e,
+            #164e63
+        );
+        color: white;
+        text-align: center;
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 34px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Menu navigasi */
+    tr:nth-child(2) td {
+        background-color: #fce7f3;
+        text-align: center;
+        padding: 15px;
+        font-weight: bold;
+    }
+
+    a {
+        color: #0f766e;
+        text-decoration: none;
+        transition: 0.3s ease;
+    }
+
+    tr:nth-child(2) a {
+        display: inline-block;
+        padding: 8px 12px;
+        margin: 3px;
+        border-radius: 8px;
+    }
+
+    a:hover {
+        color: #db2777;
+    }
+
+    tr:nth-child(2) a:hover {
+        background-color: #0f766e;
+        color: white;
+        transform: translateY(-2px);
+    }
+
+    /* Judul berita */
+    h3 {
+        color: #0f766e;
+        font-size: 22px;
+        border-left: 5px solid #ec4899;
+        padding-left: 12px;
+        margin-top: 10px;
+    }
+
+    /* Paragraf */
+    p {
+        line-height: 1.8;
+    }
+
+    small {
+        color: #64748b;
+        font-size: 12px;
+    }
+
+    /* Garis pemisah berita */
+    hr {
+        border: none;
+        height: 2px;
+        background-color: #e2e8f0;
+        margin: 25px 0;
+    }
+
+    /* Kolom tautan eksternal */
+    tr:nth-child(3) td:nth-child(2) {
+        background-color: #f1f5f9;
+        border-left: 1px solid #e2e8f0;
+    }
+
+    tr:nth-child(3) td:nth-child(2) p {
+        color: #0f766e;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    ol {
+        padding-left: 22px;
+    }
+
+    ol li {
+        padding: 6px 0;
+    }
+
+    ol li a:hover {
+        color: #db2777;
+        text-decoration: underline;
+    }
+
+    /* Footer website */
+    tr:last-child td {
+        background-color: #0f172a;
+        color: white;
+        text-align: right;
+        padding: 16px 20px;
+    }
+
+    tr:last-child small {
+        color: #e2e8f0;
+    }
+
+    /* Tampilan pada HP */
+    @media screen and (max-width: 600px) {
+        body {
+            padding: 10px 0;
+        }
+
+        table {
+            width: 95%;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        h1 {
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        tr:nth-child(2) a {
+            padding: 6px;
+            margin: 2px;
+            font-size: 12px;
+        }
+    }
+</style>
+
     
 <!DOCTYPE html>
 <html lang="id">
